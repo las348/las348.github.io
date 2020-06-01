@@ -1,0 +1,143 @@
+/*Nav*/
+.nav,
+.footer {
+    background-color: rgba(250, 252, 250, 0.7);
+}
+
+.nav {
+    border-bottom-style: double;
+    border-color: darkseagreen;
+}
+
+.nav-link {
+    color: rgb(99, 98, 98);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.link {
+    color: rgb(99, 98, 98);
+}
+
+h2,
+h3,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Footer*/
+.footer {
+    position: fixed;
+    bottom: 0px;
+    margin: 20px 0 0 0;
+    background-color: rgba(250, 252, 250, 0.5);
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    border-top-style: double;
+    border-color: darkseagreen;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+/*About Me*/
+.aboutme {
+    background-image: url("Images/wood.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.aboutcontainer {
+    background-color: rgba(250, 252, 250, 0.7);
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border-style: double;
+    border-color: darkseagreen;
+  }
+
+.img-responsive {
+    width: 25%;
+    padding: 10px 10px 10px 10px;
+    /* padding-right: 20px; */
+    float: left;
+}
+
+#Rutgers {
+    width: 10%;
+}
+#NYU {
+    width: 15%;
+}
+
+.media-body {
+    padding: 20px;
+    float: left;
+}
+
+.about {
+    float: right;
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+/*Portfolio*/
+.header,
+.row-cols-md-2 {
+margin-top: 20px;
+}
+
+.row-cols-md-2 {
+    margin-bottom: 70px;
+}
+
+.portfolio {
+    background-image: url("images/plant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.hidden {
+    position: relative;
+    width: 50%;
+   }
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    border: solid white;
+  }
+  
+  .hidden:hover .image {
+    opacity: 0.3;
+  }
+  
+  .hidden:hover .middle {
+    opacity: 1;
+  }
+  
+  .title {
+    background-color: rgb(93, 139, 90);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+ 
