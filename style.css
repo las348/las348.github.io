@@ -40,16 +40,6 @@ p {
     font-size: 14px;
 }
 
-/* .social {
-	background-color: rgba(255,255,255,0.40);
-    color: black;
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    padding-top: 5px;
-    margin-right: 10px;
-} */
 .social-link {
 	background-color: rgba(255,255,255,0.40);
     color: black;
@@ -66,6 +56,7 @@ body {
     background-image: url("Images/wood.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-color: gainsboro;
   }
 
@@ -118,6 +109,7 @@ margin-top: 20px;
     background-image: url("images/plant.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-color: gainsboro;
   }
 
